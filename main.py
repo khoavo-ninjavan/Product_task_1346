@@ -44,4 +44,4 @@ for event,call_log in raw.items():
     b += full.sync_diff.count()
 
 result = a/b
-pint(result)
+print(result)
